@@ -28,3 +28,22 @@
   display: flex;
   align-items: center;
 }
+
+.navbar__div-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  font-size: 12px;
+}
+
+.navbar__div-buttons button {
+  background: var(--almost-white);
+  border: 1px solid var(--almost-black);
+  border-radius: 15px;
+  padding: 0.7rem 0.9rem;
+}
+
+.main__div {
+  display: flex;
+}
