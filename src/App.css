@@ -1,0 +1,30 @@
+#root {
+  margin: 20px;
+}
+
+.navbar__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__div-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  text-align: center;
+}
+
+.navbar__div-links ul {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  font-size: 12px;
+  margin-left: 40px ;
+}
+
+.navbar__div-links ul li {
+  display: flex;
+  align-items: center;
+}
