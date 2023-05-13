@@ -22,20 +22,20 @@ function App() {
 
       <div className='main__div'>
         <div className='main__div-content'>
-          <h1>Make remote work</h1>
+          <h1>Make <br /> remote work</h1>
           <p>
-            Get your team in sync, no matter your location. Streamline processes, 
-            create team rituals, and watch productivity soar.
+            Get your team in sync, no matter your location.<br /> Streamline processes, 
+            create team rituals, and<br /> watch productivity soar.
           </p>
           <button type='button'>Learn more</button>
           <div className='main__div-content-clients'>
-            <img src='../images/client-databiz.svg' />
-            <img src='../images/client-audiophile.svg' />
-            <img src='../images/client-meet.svg' />
-            <img src='../images/client-maker.svg' />
+            <img src='../images/client-databiz.svg' width={80} />
+            <img src='../images/client-audiophile.svg' width={50} />
+            <img src='../images/client-meet.svg' width={60} />
+            <img src='../images/client-maker.svg' width={55} />
           </div>
         </div>
-        <img src='../images/image-hero-desktop.png' width={400} />
+        <img src='../images/image-hero-desktop.png' width={380} height={470} />
       </div>
     </>
   )
